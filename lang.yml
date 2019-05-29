@@ -1,0 +1,20 @@
+noPermission: "&cYou don't have permission [Permission]"
+guildHasDebt: "&cSorry, your guild has a debt of [Debt] and have to pay for it before you can take objectives"
+guildHasDaysPenalty: "&cSorry, but your guild have to wait [Days] to take a new objective"
+notInAnyGuild: "&cSorry, but you aren't in any guild right now"
+tookObjective: "&aYou took a contract for your guild, but be warned, you have a limited time to complete it!"
+youLackSomeItems: "&cSorry, but you still need some items: [Items]"
+objectiveCompleted: "&aYour guild has completed an objective! Your Guild won [Recompense] $ !"
+guildNeedsMoney: "&cYour guild still needs [Money] $ to take this objective"  
+alreadyDoneContract: "&cSorry, you already done a contract today"
+
+Menu:
+  dailyContracts:
+    name: "&1Daily contracts"
+    lore: "&fPrice: [Prix]||Reward: [Recompense]||Penalty: [Penalite]||Time: [Temps] days||Penalty time: [TempsPenalite] days"
+    freeObjective:  "Contract n°[Number] (Click to take)"
+    takenObjective:  "Contract n°[Number] (&4Already reserved!&f)"
+  currentContract:
+    name: "&1Current contract"
+    lore: "&fPrice: [Prix]||Reward: [Recompense]||Penalty: [Penalite]||Time left: [Temps] days||Penalty time: [TempsPenalite] days"
+    itemName: "Contract (Click to end it)"

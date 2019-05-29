@@ -1,0 +1,47 @@
+
+
+#All contracts are generated randomly with these properties
+
+contract:
+  Reset:
+    heure: 0
+    minute: 0
+  Number: 5
+# Price to take the contract
+  Cost:
+    min: 1000
+    max: 4000
+# Stacks of materials needed
+  Quantity:
+    min: 2
+    max: 12
+# Number of material types needed
+  NumberMaterial:
+    min: 3
+    max: 4
+# Material types
+  Materials:
+  - DIAMOND
+  - STONE
+  - QUARTZ_BLOCK
+# Reward given, and commands executed
+  Reward:
+    min: 1000
+    max: 20000
+    Command:
+   # format: - 'command': percentage of chance for the command to be executed
+      'guild admin upgrade [Guild]': 10
+      'guild admin give [Player] 1': 10
+#Time iin days to finish the contract
+  Time:
+    min: 3
+    max: 14
+  Penalty:
+    Time:
+#Penality time where guild will be unable to take a contract, if they don't do the contract in due time
+      min: 3
+      max: 7
+# Penalty money, that will result in a debt if guild hasn't enough money
+    Money:
+      min: 1000
+      max: 10000

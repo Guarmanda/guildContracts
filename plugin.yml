@@ -1,0 +1,10 @@
+name: GuildContracts
+main: fr.black_eyes.guildObjectives.Main
+version: 1.0
+api-version: 1.13
+description: >
+             Addon of Guilds plugin to give objectives to guilds
+depend: [Guilds]
+commands:
+  contract:
+    description: Main Command
